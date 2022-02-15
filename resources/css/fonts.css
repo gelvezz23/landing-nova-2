@@ -1,0 +1,52 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url("../fonts/ProximaNovaReg.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: bold;
+    src: url("../fonts/Proxima\ Nova\ Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: 500;
+    src: url("../fonts/Proxima\ Nova\ Sbold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: 300;
+    src: url("../fonts/Proxima\ Nova\ Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Font Awesome Brands";
+    font-weight: 400;
+    src: url("../fonts/Font\ Awesome\ 5\ Brands-Regular-400.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Font Awesome Brands";
+    font-weight: 900;
+    src: url("../fonts/Font\ Awesome\ 5\ Duotone-Solid-900.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Font Awesome Pro";
+    font-weight: 300;
+    src: url("../fonts/Font\ Awesome\ 5\ Pro-Light-300.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Font Awesome Pro";
+    font-weight: 400;
+    src: url("../fonts/Font\ Awesome\ 5\ Pro-Regular-400.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Font Awesome Pro";
+    font-weight: 900;
+    src: url("../fonts/Font\ Awesome\ 5\ Pro-Solid-900.otf") format("opentype");
+}

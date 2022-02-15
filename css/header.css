@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 4em;
+    background-color: rgb(255 255 255 / 0.85);
+    z-index: 3;
+    position: fixed;
+    width: 86%;
+    font-size: 20px;
+    z-index: 4;
+}
+
+.header-button {
+    margin-left: auto;
+    width: 10em;
+    animation-name: Jumping;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    height: 2.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button:hover {
+    animation-play-state: paused;
+}
+
+.header-button:active {
+    animation-play-state: paused;
+    transform: none;
+    box-shadow: none;
+}
+
+.heaver-button:after {
+    content: "";
+}
+
+.header-image {
+    display: flex;
+    width: 9.5em;
+}
+
+@media (max-width:600px) {
+    .header {
+        font-size: 12px !important;
+        width: 92%;
+    }
+}
+
+@media (max-width:1400px) {
+    .header {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1023px) {
+    .header {
+        font-size: 14px;
+    }
+}

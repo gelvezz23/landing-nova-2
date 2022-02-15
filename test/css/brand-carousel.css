@@ -1,0 +1,142 @@
+/*MARCAS Y ALIADOS SECTION*/
+
+.brands {
+    background: #F0F3F8;
+    display: block;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.container-brands-title {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0 50px 0;
+}
+
+.brands-title {
+    font-weight: lighter;
+}
+
+.brands-description {
+    color: #3F4B5F;
+    font-size: 24px;
+    padding-left: 110px;
+    max-width: 50%;
+}
+
+@media (max-width:900px) {
+    .brands-title {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .brands-description {
+        max-width: 100%;
+        padding-left: 0;
+        font-size: 16px;
+    }
+}
+
+.brands-carousel {
+    padding-bottom: 50px;
+}
+
+.brands-carousel .carousel-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands-carousel .carousel-inner .carousel-item {
+    position: relative;
+    opacity: 1;
+    overflow: auto;
+    width: auto;
+    border-radius: 0%;
+}
+
+.brands-carousel .owl-carousel {
+    position: initial;
+}
+
+.brands-carousel .owl-carousel .owl-nav button.owl-next,
+.brands-carousel .owl-carousel .owl-nav button.owl-prev {
+    position: relative;
+    top: 50%;
+    font-size: 29px;
+    height: 50px;
+    width: 50px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #345EEA;
+    opacity: 0.81;
+}
+
+.brands-carousel .owl-carousel.owl-drag .owl-item {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands-carousel .owl-carousel.owl-drag .owl-item img {
+    max-width: 103px;
+}
+
+.brands-carousel .owl-carousel .owl-nav button:first-child i {
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+
+.brands-carousel .owl-carousel .owl-nav button:last-child i {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.brands-carousel .owl-nav button:first-child {
+    transform: translate(0, -20px);
+    left: 2%;
+}
+
+.brands-carousel .owl-nav button:last-child {
+    transform: translate(0, -70px);
+    margin-left: auto;
+    right: 2%;
+}
+
+@media (max-width:450px) {
+    .brands-carousel .owl-nav button:first-child {
+        left: initial;
+        transform: translate(0, 0);
+    }
+    .brands-carousel .owl-nav button:last-child {
+        right: initial;
+        transform: translate(0, -50px);
+    }
+}
+
+.brands-container-button {
+    padding-bottom: 60px;
+    z-index: 2;
+    position: relative;
+}
+
+@media (max-width:900px) {
+    .brands-container-button {
+        margin: 0 7%;
+    }
+}
+
+.button-brands {
+    margin: auto;
+}
+
+@media (max-width:450px) {
+    .button-brands {
+        max-width: 100%;
+        font-size: 16px;
+    }
+}

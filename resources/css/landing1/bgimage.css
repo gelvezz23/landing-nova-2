@@ -1,0 +1,145 @@
+    .bgimage {
+        background-image: url(../../resources/Banners/emprendimiento-1920.jpg);
+        background-size: cover;
+        position: relative;
+        z-index: 4;
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+        background-position: initial;
+    }
+    
+    .bgimage-bgimage_responsive {
+        display: none;
+    }
+    
+    .bgimage-logo {
+        padding-bottom: 2.5rem;
+        padding-top: 2rem;
+    }
+    
+    .bgimage-logo svg {
+        width: 19em;
+        height: auto;
+    }
+    
+    .bgimage-content {
+        color: #3F4B5F;
+        max-width: 435px;
+        padding-bottom: 3em;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .bgimage-content p:first-child {
+        font-size: 2.25em;
+        margin-bottom: 0.8em;
+        line-height: 43px;
+    }
+    
+    .bgimage-content p:nth-child(2) {
+        font-size: 1.25em;
+        letter-spacing: 0.15px;
+        margin-bottom: 2em;
+        line-height: 24px;
+    }
+    
+    .bgimage-button {
+        width: auto;
+        display: flex;
+        height: 3em;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.25em;
+    }
+    
+    .bgimage-stars {
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+    }
+    
+    .bgimage-stars svg {
+        width: 8em;
+        height: auto;
+    }
+    
+    .bgimage_gradient {
+        display: none;
+    }
+    
+    @media (max-width:600px) {
+        .bgimage-button {
+            height: 50px;
+            width: 100%;
+        }
+        .bgimage-logo {
+            margin-top: 0;
+            width: 40%;
+            display: flex;
+            margin-bottom: 15vw;
+            z-index: 1;
+        }
+        .bgimage-stars {
+            position: absolute;
+            top: 25vw;
+            left: 30px;
+            width: 55px;
+            height: 55px;
+            z-index: 2;
+        }
+        .bgimage-stars svg {
+            width: 100%;
+        }
+        .bgimage_gradient {
+            position: absolute;
+            background: linear-gradient(180deg, #F9F8F700 0%, #F9F8F7 100%);
+            top: 31%;
+            height: 50px;
+            width: 100%;
+            display: block;
+            z-index: 1;
+        }
+    }
+    
+    @media (max-width:600px) {
+        .bgimage {
+            background-position: bottom;
+            background-image: url(../../resources/banner2.png) !important;
+            font-size: 16px !important;
+        }
+        .bgimage-bgimage_responsive {
+            background-image: url(../../resources/Banners/emprendimiento-400.jpg);
+            background-size: cover;
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 60%;
+            top: 0;
+            z-index: -1;
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+    }
+    
+    @media (max-width:400px) {
+        .bgimage {
+            font-size: 11px !important;
+        }
+    }
+    
+    @media (max-width:1400px) {
+        .bgimage {
+            background-image: url(../../resources/Banners/emprendimiento-1024.jpg);
+            background-position: right;
+            font-size: 14px;
+        }
+    }
+    
+    @media (max-width:1023px) {
+        .bgimage {
+            background-image: url(../../resources/Banners/emprendimiento-768.jpg);
+            background-position: right;
+            font-size: 12px;
+        }
+    }

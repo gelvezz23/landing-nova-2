@@ -1,0 +1,17 @@
+.chat {
+    width: 63px;
+    height: 63px;
+    background-color: #345EEA;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20%;
+    right: 30px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 33px;
+    cursor: pointer;
+    z-index: 4;
+}

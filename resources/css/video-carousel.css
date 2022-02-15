@@ -1,0 +1,116 @@
+.bgcontent {
+    display: flex;
+    background: #F0F3F8;
+    flex-wrap: wrap;
+    padding: 80px 7% 60px 7%;
+    margin-bottom: 65px;
+}
+
+.bgcontent_leftsection {
+    width: 50%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.bgcontent_leftsection b {
+    font-size: 34px;
+    color: #345EEA;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.bgcontent_leftsection p {
+    font-size: 26px;
+    color: #3F4B5F;
+    padding-bottom: 60px;
+}
+
+.bgcontent_leftsection span {
+    color: #3F4B5F;
+}
+
+.bgcontent_video {
+    width: 40%;
+    margin-left: auto;
+    min-height: 360px;
+    position: relative;
+}
+
+.bgcontent_button {
+    padding: 0 10px;
+}
+
+.bgcontent_video .owl-carousel,
+.bgcontent_video .owl-carousel .owl-stage-outer,
+.bgcontent_video .owl-carousel .owl-stage-outer .owl-stage,
+.bgcontent_video .owl-carousel .owl-stage-outer .owl-item,
+.bgcontent_video .owl-carousel .owl-stage-outer .item-video {
+    height: 100%;
+    position: initial;
+}
+
+.bgcontent_video .owl-carousel .owl-stage-outer .item-video .owl-video-wrapper .owl-video-tn {
+    background-size: auto;
+    border-radius: 6px;
+}
+
+.bgcontent_video .owl-carousel .owl-stage-outer .item-video .owl-video-wrapper {
+    border-radius: 6px;
+}
+
+.bgcontent_video .owl-carousel .owl-stage-outer .item-video .owl-video-wrapper iframe {
+    height: 100%;
+}
+
+.bgcontent_video .product_carousel .owl-nav button:first-child {
+    left: -30px;
+}
+
+.bgcontent_video .product_carousel .owl-nav button:last-child {
+    right: -30px;
+    top: -5px;
+}
+
+@media (max-width:1000px) {
+    .bgcontent_video {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .bgcontent_leftsection {
+        width: 100%;
+    }
+    .bgcontent_button {
+        width: 86%;
+        position: absolute;
+        bottom: 0;
+        max-width: initial;
+    }
+    .bgcontent {
+        position: relative;
+    }
+}
+
+@media (max-width:450px) {
+    .bgcontent_leftsection b {
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .bgcontent {
+        padding-top: 30px;
+    }
+    .bgcontent_leftsection p {
+        font-size: 20px;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    .bgcontent_leftsection p .bold {
+        font-weight: 500;
+    }
+    .bgcontent_button {
+        font-size: 16px;
+        height: 40px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+}
