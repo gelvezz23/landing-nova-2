@@ -138,6 +138,13 @@ a {
   align-items: center;
   text-align: left;
 }
+
+@media (max-width: 600px) {
+  .container-mision-vision {
+    flex-direction: column;
+  }
+}
+
 .container-vision,
 .container-mision {
   flex-direction: column;
